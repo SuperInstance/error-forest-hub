@@ -1,0 +1,13 @@
+[package]
+name = "error-forest-hub"
+version = "0.1.0"
+edition = "2024"
+description = "Distributed error-correction hub network — a mycorrhizal mesh for resilient message delivery"
+license = "MIT"
+repository = "https://github.com/SuperInstance/error-forest-hub"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"
